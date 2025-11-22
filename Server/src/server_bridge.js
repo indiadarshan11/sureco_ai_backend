@@ -9,8 +9,8 @@ import path from "path";
 dotenv.config();
 
 const PORT = Number(process.env.PORT || 8091);
-const XI = "sk_20aad4619f7b7241fd4e696fe1eb6d1765b3aafc708368cb" || "";
-const AGENT_ID = "agent_3401kakdn35wenjb3c23479grfw3" || "";
+const XI = "sk_8c78fcc50c7a5ba46f617d5bc73b9630968883de414464b8" || "";
+const AGENT_ID = "agent_0901kah8ej4hfkybaw33vbzgq2mx" || "";
 const WAIT_SEC = Number(process.env.WAIT_SEC ?? 0);        // 0 => idle close disabled
 const SAVE_OUT = String(process.env.SAVE_OUT || "false") === "true";
 
