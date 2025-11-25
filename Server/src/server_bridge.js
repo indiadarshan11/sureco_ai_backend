@@ -160,8 +160,8 @@ wss.on("connection", (client, req) => {
             dynamic_variables: {
                 agent_name: agentName,
                 customer_name: customerName,
-                due_amount: dueAmount,
-                due_date: dueDate
+                due_amount: dueAmount
+                // due_date: dueDate
             }
         }));
 
